@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eshop</name>
+    </assembly>
+    <members>
+        <member name="T:Eshop.Controllers.ProductsController">
+            <summary>
+            Restful Products
+            </summary>
+        </member>
+        <member name="M:Eshop.Controllers.ProductsController.GetAsync">
+            <summary>
+            Get All
+            </summary>
+            <returns>Products List</returns>
+        </member>
+        <member name="M:Eshop.Controllers.ProductsController.GetAsync(System.Int32)">
+            <summary>
+            Get By Id
+            </summary>
+            <returns>Product</returns>
+        </member>
+        <member name="M:Eshop.Controllers.ProductsController.Post(System.String)">
+            <summary>
+            Post Product
+            </summary>
+            <returns>Message</returns>
+        </member>
+        <member name="M:Eshop.Controllers.ProductsController.Put(System.Int32,System.String)">
+            <summary>
+            Edit Product By Id
+            </summary>
+            <returns>Message</returns>
+        </member>
+        <member name="M:Eshop.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Delete Product By Id
+            </summary>
+            <returns>Message</returns>
+        </member>
+    </members>
+</doc>
